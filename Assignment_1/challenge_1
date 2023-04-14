@@ -1,0 +1,34 @@
+<!-- Challenge #1
+A 3-tier environment is a common setup. Use a tool of your choosing/familiarity create these
+resources on a cloud environment (Azure/AWS/GCP). Please remember we will not be judged
+on the outcome but more focusing on the approach, style and reproducibility. -->
+
+The following steps are followed while creating the 3-tier environment in Azure
+
+1. Creating a Resource Group: 
+The first step is to create a Resource Group where all the resources related to the 3-tier environment will be placed. 
+
+2. Creating a Virtual Network: 
+Create a Virtual Network within the Resource Group to host the three tiers. This will provide secure communication between the different tiers. 
+
+3. Creating a Subnet: 
+Within the Virtual Network, we need to create a Subnet for each tier, e.g., one for the presentation tier, one for the application tier, and one for the database tier. 
+
+4. Deploy Virtual Machines: 
+Deploy Virtual Machines (VMs) for each tier, based on the operating system required for the workload, e.g., Windows or Linux. Deploy VMs to each of the subnets created in the above step. 
+
+5. Configure Network Security: 
+Configuring network security by setting up Network Security Groups (NSGs) to restrict inbound and outbound traffic to each tier based on the required protocol and port. 
+
+6. Setting up Load Balancing: 
+Set up Load Balancers to distribute the incoming traffic between the different instances of each tier. 
+
+7. Configuring Storage: 
+Configure storage for the application and database tiers, using either Azure Blob Storage or Azure Data Services such as Azure SQL Database or Azure Cosmos DB. 
+
+8. Configure Monitoring: 
+Configure monitoring and logging for the different tiers to track performance, availability, and security. Using Azure Monitor we can create alerts based on specific criteria. 
+
+9. Automating Deployments: 
+Automate the deployment process by using Azure DevOps or another CI/CD tool to streamline and simplify the deployment process.
+
