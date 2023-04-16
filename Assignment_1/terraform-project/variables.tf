@@ -64,7 +64,7 @@ variable "db_host" {
 
 variable "db_name" {
   type        = string
-  default     = "random"
+  default     = "testdb"
   description = "description"
 }
 
@@ -118,7 +118,7 @@ variable "lb_name" {
 
 variable "dbinstance_name" {
   type        = string
-  default     = "kildare"
+  default     = "assignment"
   description = "name of database instance"
 }
 
