@@ -6,7 +6,7 @@ variable "machine_type" {
 
 variable "project_name" {
   type        = string
-  default     = "plucky-tract-350819"
+  default     = "bustling-tree-383805"
   description = "enter your project name"
 }
 
