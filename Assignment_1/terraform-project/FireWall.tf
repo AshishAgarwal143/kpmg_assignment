@@ -1,6 +1,6 @@
 resource "google_compute_firewall" "allow-traffic" {
   name    = "test-firewall"
-  network = google_compute_network.vpc-network-team.name
+  network = google_compute_network.vpc-network-team3.name
 
   allow {
     protocol = "icmp"
