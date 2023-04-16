@@ -8,14 +8,14 @@
 		
 # Look for variables file and edit the name of the project into the default part. In our case the ID of our project is : 
 		
-# plucky-tract-350819
+# bustling-tree-383805
 		
 #  So in variables for the example case we put this project ID in the default section like so: 
 		
 		
 		variable "project_name" {
 		  type        = string
-		  default     = "plucky-tract-350819"
+		  default     = "bustling-tree-383805"
 		  description = "enter your project name"
 		}
 		
