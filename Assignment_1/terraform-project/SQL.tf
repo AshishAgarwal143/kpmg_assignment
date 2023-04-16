@@ -34,7 +34,7 @@ resource "google_sql_database" "database" {
   instance = google_sql_database_instance.database.name
 }
 
-resource "google_sql_user" "users" {
+resource "google_sql_user" "testuser" {
   name     = var.db_username
   instance = google_sql_database_instance.database.name
   host     = var.db_host
